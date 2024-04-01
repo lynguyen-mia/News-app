@@ -24,7 +24,7 @@ function renderTasks(username) {
 
   // Filter only tasks of current user
   const taskList = todoArr.filter((obj) => obj.owner === username);
-  console.log(taskList);
+  // console.log(taskList);
 
   // Render tasks in UI
   todoList.innerHTML = "";

@@ -51,7 +51,7 @@ async function renderArticles(pageSize, currentPage) {
     );
 
     // Get total results & total page number
-    console.log(res);
+    // console.log(res);
     totalResults = res.totalResults;
     pageNum = Math.ceil(totalResults / pageSize);
 
